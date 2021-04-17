@@ -9,12 +9,12 @@ const Doctors = () => {
         fetch('https://fast-thicket-91434.herokuapp.com/doctors')
         .then(res => res.json())
         .then(data => setDoctors(data))
-    }, [])
+    }, []);
 
     return (
         <div className="doctors">
             <div className="container">
-                <h5 style={{color: '#12D0DC', fontWeight: 'bold'}} className="text-center">Our Doctors</h5>
+                <h5 className="text-center text-brand">Our Doctors</h5>
                 <div className="row">
                     {
                      doctors.map(doctor =><Doctor key={doctor._id} doctor={doctor} />)

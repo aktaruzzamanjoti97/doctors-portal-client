@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import chair from '../../../images/chair.png';
+// import chair from '../../../images/chair.png';
+import telemedicine from '../../../images/Telemedicine.png';
 
 const HeaderMain = () => {
     return (
@@ -11,7 +12,7 @@ const HeaderMain = () => {
                 <Link to="/appointment" className="btn btn-brand">GET APPOINTMENT</Link>
             </div>
             <div className="col-md-6">
-                <img src={chair} alt="" className="img-fluid"/>
+                <img src={telemedicine} alt="" className="img-fluid"/>
             </div>
         </main>
     );

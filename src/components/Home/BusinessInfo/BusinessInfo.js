@@ -10,13 +10,13 @@ const infoData = [
     },
     {
         title: 'Visit Our Location',
-        description: 'Brooklyn, New York 10003 USA',
+        description: 'Gulshan-2120, Dhaka',
         icon: faMapMarker,
         background:'dark'
     },
     {
         title: 'Call Us Now',
-        description: '+15697854124',
+        description: '+01635431430',
         icon: faPhone,
         background:'primary'
     },

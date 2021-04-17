@@ -14,7 +14,7 @@ const MakeAppointment = () => {
                         <h5 className="text-primary text-uppercase">Appointment</h5>
                         <h1 className="my-4">Make an Appointment <br/> Today</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In magni, iste enim dolorem fuga veniam nisi quaerat dolorum repudiandae labore!</p>
-                        <button style={{backgroundColor: '#12D0DC', color: 'white', fontWeight: '700'}} class="btn">Learn More</button>      
+                        <button class="btn btn-brand">Learn More</button>      
                     </div>
                 </div>
             </div>

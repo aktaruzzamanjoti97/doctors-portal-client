@@ -1,21 +1,22 @@
 import React from 'react';
 import fluoride from '../../../images/fluoride.png';
-import cavity from '../../../images/cavity.png';
-import whitening from '../../../images/whitening.png';
 import ServiceDetail from '../ServiceDetail/ServiceDetail';
+import covid19 from '../../../images/Covid-19.jpg';
+import pressure from '../../../images/Blood Pressue.jpeg';
+import diabetase from '../../../images/Diabetics.jpg';
 
 const serviceData = [
     {
-        name: 'Fluoride Treatment',
-        img: fluoride
+        name: 'Covid-19 Information',
+        img: covid19
     },
     {
-        name: 'Cavity Filling',
-        img: cavity
+        name: 'Blood Pressure',
+        img: pressure
     },
     {
-        name: 'Teeth Whitening',
-        img: whitening
+        name: 'Diabatics',
+        img: diabetase
     }
 ]
 
@@ -23,7 +24,7 @@ const Services = () => {
     return (
         <section className="services-container mt-5">
             <div className="text-center">
-                <h5 style={{color: '#1CC7C1'}}>Our Services</h5>
+                {/* <h5 style={{color: '#1CC7C1'}}>Our Services</h5> */}
                 <h2>Services We Provide</h2>
             </div>
             <div className="d-flex justify-content-center">
